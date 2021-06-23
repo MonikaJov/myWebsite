@@ -1,0 +1,201 @@
+.levo{
+    width: 55%;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    top: 30px;
+}
+.header{
+    margin: auto;
+    text-align: center;
+}
+body{
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+.content{
+    position: relative;
+    top: 40px;
+    margin: auto;
+}
+.rodno_mesto, .interesi, .za_mene{
+    background-color: white;
+    box-shadow:2px 2px 15px #52514b;
+}
+.tekst2, h3, h5{
+    margin-left: 30px;
+    margin-right: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.tag{
+    color: white;
+    background-color: black;
+}
+.desno{
+    width: 35%;
+    float: right;
+    position: relative;
+    top: 30px;
+    margin-right: 40px;
+}
+.tekst3{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li span{
+    position: relative;
+    bottom: 7px;
+}
+footer{
+    position: relative;
+    clear: both;
+    background-color: #6e6e6e;
+    height: 35px;
+    top: 160px;
+}
+footer p{
+    text-align: center;
+    position: relative;
+    top:15px;
+}
+.icons a{
+    padding: 10px;
+}
+button{
+    border: 1px solid #52514b;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+button:hover{
+    color:#000000;
+    background-color: #a4a4a4;
+}
+.neklikneno:hover{
+    color:#000000;
+    background-color: #4d4d4d;
+}
+.klikneno{
+    background-color: #4d4d4d;
+}
+.navigacija li {
+    display: inline;
+
+}
+.navigacija {
+    border-bottom: 1px solid #eeeeee;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #6e6e6e;
+    position: relative;
+    clear: both;
+    height: 23px;
+}
+.navigaciska_lista{
+    float: right;
+    position: relative;
+    bottom: 8px;
+}
+.navigacija li a, .li1 li {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+     font-size: 20px;
+}
+.navigaciska_lista img{
+    position: relative;
+    top: 5px;
+}
+.li1{
+    float: left;
+    position: relative;
+    left: 20px;
+
+
+}
+.li1 li{
+    color: #1b1b1b;
+}
+.skoluvanje_naslov {
+    background-color: #bcbcbc;
+    height: 40px;
+}
+.skoluvanje_naslov h4{
+    position: relative;
+    top:12px;
+    left: 5px;
+}
+.skoluvanje_lista{
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+#kontakti{
+    background-color: #bcbcbc;
+    height: 40px;
+}
+#kontakti h4{
+    position: relative;
+    top:12px;
+    left: 5px;
+}
+
+.row{
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 12%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}

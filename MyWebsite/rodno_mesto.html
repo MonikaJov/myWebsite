@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="mk">
+<title>Родно Место</title>
+<meta charset="UTF-8">
+<link href="brrr.css" rel="stylesheet" >
+<style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body>
+<ul class="navigacija">
+    <div class="li1"><li>Monika Jovevska 203028</li></div>
+    <div class="navigaciska_lista">
+        <li><a class="neklikneno" href="index.html"><img src="homeicon.png" alt="homebutton" width="25px"></a></li>
+        <li><a class="neklikneno" href="interesi.html">Интереси</a></li>
+        <li><a class="neklikneno" href="index.html#skoluvanje">Образование</a></li>
+        <li><a class="neklikneno" href="index.html#kontakti">Контакт</a></li>
+    </div>
+</ul>
+<div class="content" style="max-width:1400px">
+    <header class="header">
+        <img src="opstina_peh.png" alt="Pehcevo" style="width:5%;  float: left; margin-left: 40px; ">
+        <h1><b>Општина Пехчево</b></h1>
+        <p>Мало место но, полно со убавини.</p>
+    </header>
+        <div class="levo">
+            <div class="rodno_mesto">
+                <img src="pehcevo4.jpg" alt="Pehcevo" style="width:100%; ">
+                <div class="text1">
+                    <h3><b>ЗА ПЕХЧЕВО</b></h3>
+                </div>
+                <div class="tekst2">
+                    <p>Се наоѓа во крајниот источен дел на државата, покрај самата граница со Бугарија.
+                        Всушност најисточната точка на општината кај врвот Ченгино Кале (1745 м)
+                        е најисточна точка и на Република Македонија. </p>
+                </div>
+            </div>
+            <hr>
+            <div class="interesi">
+                <img src="pehcevo6.jpg" alt="Interesi" style="width:100%;  ">
+
+
+                <div class="tekst2">
+                    <p> Како туристичка населба се издвојува „Равна река“ во чија близина се наоѓаат
+                        „Пехчевските водопади“, „Чабуковски водопади“, „Дебел рид“ и „Црн дол“.</p>
+                </div>
+            </div>
+        </div>
+        <div class="desno">
+            <div class="za_mene">
+                <div class="mapouter">
+                        <iframe width="100%" height="228" id="gmap_canvas" src="https://maps.google.com/maps?q=pehcevo&t=&z=13&ie=UTF8&iwloc=&output=embed"  scrolling="no" ></iframe>
+                </div>
+
+            </div>
+
+            <hr>
+            <br/>
+
+            <div style="text-align:center">
+                <h2>Туристичка населба Равна река</h2>
+                <p>Види галерија:</p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="ravnareka2.jpg" alt="Равна Река" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="ravnareka3.jpg" alt="Равна Река" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="ravnareka4.jpg" alt="Равна Река" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="ravnareka5.jpg" alt="Равна Река" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="ravnareka1.jpg" alt="Равна Река" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="jas.jpg" alt="Јас" style="width:100%" onclick="myFunction(this);">
+                </div>
+            </div>
+                <div class="container">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
+
+                <script>
+                    function myFunction(imgs) {
+                        var expandImg = document.getElementById("expandedImg");
+                        var imgText = document.getElementById("imgtext");
+                        expandImg.src = imgs.src;
+                        imgText.innerHTML = imgs.alt;
+                        expandImg.parentElement.style.display = "block";
+                    }
+                </script>
+            <hr>
+            <br/>
+            <br/>
+            <div class="kopce">
+                <p><button onclick="location.href='index.html'" style="float: right;"><b>« BACK</b></button></p>
+            </div>
+        </div>
+   <br>
+</div>
+<footer><p>&copy; 2021</p> </footer>
+</body>
+</html>
